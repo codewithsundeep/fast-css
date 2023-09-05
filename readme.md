@@ -45,5 +45,23 @@ fontSize: '16px',
 
 fastCss.init();
 
-
 ``` 
+## React Example
+```javascript
+import {useEffect} from 'react'
+import fastCss from 'fastcss'
+export default function Home(){
+useEffect(()=>{
+    fastCss.write('.my-element1', {
+  backgroundColor: 'blue',
+  fontSize: '16px',
+});
+fastCss.init()
+  },[])
+  return(
+    <>
+    <div className='my-element1'> This div background is blue</div>
+    </>
+  )
+}
+```
