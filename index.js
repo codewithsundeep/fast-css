@@ -87,11 +87,5 @@ init:()=>{
   initializer()
 }
 }
-fastCss.write('body',{backgroundColor:"red"})
-fastCss.init()
-  let str= '0123456789ABCDEF'.split('')
-  let rdm = ()=>Math.floor(Math.random()*16)
-  let hex = "#"+str[rdm()]+str[rdm()]+str[rdm()]
-  fastCss.write('body',{opacity:0})
-  fastCss.write('body:hover',{backgroundColor:'pink'})
-  fastCss.init()
+
+export default fastCss;
