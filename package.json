@@ -1,0 +1,27 @@
+{
+  "name": "fast-css",
+  "version": "0.0.1",
+  "description": "FastCSS is a simple and lightweight NPM package that allows you to dynamically generate and manage CSS styles in your web applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithsundeep/fast-css.git"
+  },
+  "keywords": [
+    "fast-css",
+    "javascript",
+    "css in javascript",
+    "javascript css",
+    "dynamic css",
+    "css"
+  ],
+  "author": "Sundeep Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codewithsundeep/fast-css/issues"
+  },
+  "homepage": "https://github.com/codewithsundeep/fast-css#readme"
+}
